@@ -7,7 +7,7 @@ class assifyPP(PostProcessor): # pylint: disable=C0103,C0115
 		super().__init__(downloader)
 		self._kwargs = kwargs
 
-	def _okay_to_run(self, information) -> bool:
+	def _okay_to_run(self, information):
 		if not information.get('filepath'):
 			self.to_screen("❌ This post-processer should be run after downloading.")
 			return False
