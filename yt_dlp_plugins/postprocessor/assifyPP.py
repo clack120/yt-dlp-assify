@@ -27,7 +27,7 @@ class assifyPP(PostProcessor): # pylint: disable=C0103,C0115
 		return info
 
 	def run(self, information):
-		if not self._okay_to_run(information):
+		if not self._okay_to_run(information):  # TODO: Unforce it if args
 			return [], information
 
 		subs = information.get('requested_subtitles', {})
