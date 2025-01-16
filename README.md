@@ -13,12 +13,13 @@ Ensure that [`YTSubConverter`](https://github.com/arcusmaximus/YTSubConverter/re
 
 ## Usage
 
-Once installed, the plugin automatically integrates with `yt-dlp`. To use it, simply run:
+To use it, simply run:
 
 ```
 yt-dlp --embed-subs --postprocessor-args assify $YOUTUBE_VIDEO_URL
 ```
-##### Example: `yt-dlp -fba+bv/b --extractor-args youtube:skip=translated_subs --embed-subs --sub-lang=all,-live_chat --sub-format=srv3/ytt --use-postprocessor assify --embed-thumbnail --embed-metadata https://www.youtube.com/watch?v=8MImc3MxYZg`
+##### Example: `yt-dlp -fba+bv --extractor-args youtube:skip=translated_subs --embed-subs --sub-lang=all,-live_chat --sub-format=srv3/ytt --use-postprocessor assify --embed-thumbnail --embed-metadata https://www.youtube.com/watch?v=8MImc3MxYZg`
+##### Note: output format must be .mkv without `--merge-(whatever)=mkv` because it won't fix error (at least on my environment; idk why)
 
 ---
 
