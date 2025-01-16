@@ -42,8 +42,9 @@ class assifyPP(PostProcessor): # pylint: disable=C0103,C0115
 			if sub['ext'] in ["srv3", "ytt"]:
 				try:
 					info = self._convert(subtitle=sub, info=information, lang=lang)
-					if os.path.exists(info.get('filepath')):
-						information = info
+					for s in info['requested_subtitles'].values():
+						if os.path.exists(s.get('filepath')):
+							information = info
 				except Exception as e:
 					self.to_screen(f"❌ YTSubConverter {sub['filepath']}\n{e}")
 			else:
