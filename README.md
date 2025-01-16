@@ -1,6 +1,6 @@
 ## Installation
 
-Requires `yt-dlp` version `2024.01.15` or above, and [YTSubConverter](https://github.com/arcusmaximus/YTSubConverter/releases/latest).
+Requires `yt-dlp` version `2025.01.15` or above, and [YTSubConverter](https://github.com/arcusmaximus/YTSubConverter/releases/latest).
 
 You can install this package with:
 ```
