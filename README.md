@@ -7,7 +7,8 @@ You can install this package with:
 pip install -U https://github.com/yt-dlp/yt-dlp-sample-plugins/archive/master.zip
 ```
 
-Ensure that [`YTSubConverter`](https://github.com/arcusmaximus/YTSubConverter/releases/latest) is in your PATH. Might require `mono` if you are using Linux
+Ensure that [`YTSubConverter`](https://github.com/arcusmaximus/YTSubConverter/releases/latest) is in your PATH. Might require `mono` if you are using Linux.
+###### You can install AUR Package if you are using archlinux. `yay -Sy ytsubconverter-git`, then link `ytsubconverter-git` to `YTSubConverter` inside binary folder.
 
 ---
 
