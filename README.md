@@ -4,7 +4,7 @@ Requires `yt-dlp` version `2025.01.15` or above, and [YTSubConverter](https://gi
 
 You can install this package with:
 ```
-pip install -U https://github.com/yt-dlp/yt-dlp-sample-plugins/archive/master.zip yt-dlp
+pip install -U https://github.com/clack120/yt-dlp-assify/archive/master.zip yt-dlp
 ```
 You should use yt-dlp from pip, not executable from releases page.  
 Ensure that [`YTSubConverter`](https://github.com/arcusmaximus/YTSubConverter/releases/latest) is in your PATH. Might require `mono` if you are using Linux.
